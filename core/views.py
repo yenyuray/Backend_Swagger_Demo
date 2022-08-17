@@ -7,11 +7,6 @@ from core.models import Order
 from core.serializers import OrderSerializer
 
 
-class UnknownPagination(BasePagination, ABC):
-    paginator_query_args = ['unknown_paginator']
-
-
 class OrdersViewSet(viewsets.ModelViewSet):
     queryset = Order.objects.all()
     serializer_class = OrderSerializer
-    pagination_class = UnknownPagination
