@@ -1,8 +1,9 @@
 # Django Backend with Swagger UI
 - 安裝套件
 - 建立 Model 和 ORM 操作
-- Create APIs
+- 建立 API
 - drf-yasg swagger UI
+
 
 ## 安裝套件
 主要使用到的套件為
@@ -83,6 +84,7 @@ python manage.py migrate
 ```
 
 若過程沒有錯誤訊息則可以看到
+
 ![](https://i.imgur.com/7qbnspf.png)
 
 ## 建立 API
