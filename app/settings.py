@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     # Heroku app url
-    'backendswaggerdemogi.herokuapp.com/'
+    'backendswaggerdemo.herokuapp.com'
 ]
 
 
