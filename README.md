@@ -20,7 +20,30 @@
 pip3 install -r requirements.txt
 ```
 
-套件安裝好後需要加入到 /app/settings.py 中
+套件安裝好後須先建立 Django 專案 `startproject app` 和服務 `startapp core`
+```
+.
+├── app
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── core
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── migrations
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── main.py
+├── manage.py
+└── requirements.txt
+```
+
+需要加入到 /app/settings.py 中
 ```python
 ...
 
